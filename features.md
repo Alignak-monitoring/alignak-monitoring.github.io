@@ -4,4 +4,7 @@ title: Features
 permalink: /features/
 ---
 
-Features...
+Features or Alignak are:
+
+* Nagios compatible, so you can use your nagios cfg files
+* 
