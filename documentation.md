@@ -2,6 +2,7 @@
 layout: page
 title: Documentation
 permalink: /documentation/
+menu: true
 ---
 
 The documentation is available on readthedocs.org:

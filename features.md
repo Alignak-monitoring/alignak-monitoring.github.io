@@ -2,6 +2,7 @@
 layout: page
 title: Features
 permalink: /features/
+menu: true
 ---
 
 Features or Alignak are:

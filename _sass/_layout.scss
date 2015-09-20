@@ -5,6 +5,7 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    background-color: #949494;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -12,10 +13,11 @@
 
 .site-title {
     font-size: 26px;
-    line-height: 56px;
+    line-height: 110px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
+    background-color: #6A6A6A;
+    width: 100%;
 
     &,
     &:visited {
@@ -94,6 +96,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-color: #A6A6A6;
 }
 
 .footer-heading {
@@ -233,4 +236,91 @@
             font-size: 18px;
         }
     }
+}
+
+
+.breadcrumb {
+  float:left;
+  padding-top:16px;
+  list-style: none;
+  border-radius: 4px;
+}
+.breadcrumb > li {
+  display: inline-block;
+}
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+}
+
+.breadcrumb { border: 0px;  display: block;}
+.breadcrumb li {font-size: 14px;}
+.breadcrumb a {color: $text-color;}
+.breadcrumb a:hover {color: darken($text-color, 20%);}
+.breadcrumb>.active {color: lighten($text-color, 20%)}
+.breadcrumb>li+li:before {color:$grey-color-dark; content: "\003E\00a0";}
+
+
+/* infobox template */
+.infobox,
+.warningbox {
+    float:none;
+    padding: 0;
+    margin: 0;
+	margin-top: 1ex;
+	margin-bottom: 1ex;
+    padding-left: 52px;
+    min-height: 52px;
+	border: 1px solid #aaa;
+
+    background-repeat: no-repeat;
+    background-position-y: 2px;
+    background-position-x: 2px;
+
+}
+
+.infobox {
+	background-color: #7F93C4;
+    background-image: url(../images/info.png);
+}
+
+/* warningbox template */
+.warningbox {
+	background-color: #FFDA94;
+    background-image: url(../images/warning.png);
+}
+/* ul inside infobox no margins */
+.boxcontent ul {
+    margin: 0;
+    padding-left: 1.5em;
+}
+
+
+.boxcontent {
+    background-color:white;
+    display:block;
+    clear:both;
+    min-height: inherit;
+    padding-left: 0.5em;
+    height: 100%;
+}
+
+.boxcontent > p {
+    margin:0;
+/*    padding: 0.5em 0;*/
+}
+
+/* list element style */
+
+li * {
+    margin: 0.5em 0;
+}
+
+/* code elements style */
+
+code {
+    border-radius: 5px;
+}
+
+.hidden {
+   visibility: hidden;
 }
