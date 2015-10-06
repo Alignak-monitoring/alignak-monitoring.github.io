@@ -21,7 +21,7 @@
         {% for page in site.pages %}
           {% if page.title %}
             {% if page.menu %}
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}"><strong>{{ page.title }}</strong></a>
             {% endif %}
           {% endif %}
         {% endfor %}
