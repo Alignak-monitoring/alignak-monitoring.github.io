@@ -34,9 +34,9 @@ In addition, the team have found an agreement on development process. Here it is
 For an easy setup, DEB (Debian/Ubuntu) and RPM (RHEL/CentOS/Fedora) are available. Packaging sources are available on a [specific repository](https://github.com/Alignak-monitoring/alignak-packaging)
 Build pacakages are also available on the [website](http://alignak-monitoring.github.io/)
 
-Documentation is available on readthedocs : [](http://alignak-doc.rtfd.org) (user),  [](http://alignak.rtfd.org) (developper)
+Documentation is available on readthedocs : [http://alignak-doc.rtfd.org](http://alignak-doc.rtfd.org) (user),  [http://alignak.rtfd.org](http://alignak.rtfd.org) (developper)
 
-Two mailing lists are also avalable to registration : alignak@freelists.org ( user, registration  [](http://www.freelists.org/list/alignak) ), alignak-devel@freelists.org ( developper, registration [](http://www.freelists.org/list/alignak-devel) )
+Two mailing lists are also avalable to registration : alignak@freelists.org ( user, registration  [http://www.freelists.org/list/alignak](http://www.freelists.org/list/alignak) ), alignak-devel@freelists.org ( developper, registration [http://www.freelists.org/list/alignak-devel](http://www.freelists.org/list/alignak-devel) )
 
-You can also reach us on IRC (chan #aligank on Freenode) or on Twtter @alignak_monitor
+You can also reach us on IRC (chan #aligank on Freenode) or on Twitter @alignak_monitor
 
