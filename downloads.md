@@ -1,12 +1,11 @@
 ---
 layout: page
-title: Downloads
-permalink: /downloads/
+title: Download
+permalink: /download/
 menu: true
 ---
 
-Downloads
+Download
 
-The best place where know how to download and install is in the documentation, 
-see [here](http://alignak-doc.readthedocs.org/en/master-rewrite/02_installation/index.html).
+The best place where know how to download and install is in the [documentation](http://alignak-doc.readthedocs.org/en/master-rewrite/02_installation/index.html).
 
