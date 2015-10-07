@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "First release of Alignak: 0.1!"
-date:   2015-09-17 09:18:42
+date:   2015-10-07 18:40:42
 categories: release
 ---
 
