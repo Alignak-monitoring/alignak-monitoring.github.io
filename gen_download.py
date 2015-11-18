@@ -13,7 +13,7 @@ else:
 
 TEMPLATE = "downloads.template"
 
-env = Environment(loader=FileSystemLoader(ALIGNAK_PATH))
+env = Environment(loader=FileSystemLoader(os.path.join(ALIGNAK_PATH, 'templates'))
 template = env.get_template(TEMPLATE)
 
 distros = []
