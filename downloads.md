@@ -5,6 +5,13 @@ permalink: /download/
 menu: true
 ---
 
+## Stable versions
+
+Look into the [documentation](http://alignak-doc.readthedocs.org/en/latest/02_installation/index.html).
+
+
+## Weekly versions (so not stable)
+
 If you want recent builds have a look here :
 
 
@@ -17,4 +24,12 @@ If you want recent builds have a look here :
 * [ubuntu_12](/build/ubuntu_12/alignak-all_0.1-1.1446150306.0cf348d_all.deb)
 
 
-If you want the repository link for last tagged version have a look into the [documentation](http://alignak-doc.readthedocs.org/en/latest/02_installation/index.html).
+The package name as the following format:
+
+```		
+deb: alignak-all_VERSION-RELEASE.BUILDTIMESTAMP.COMMITID_ARCH.deb
+```
+
+```
+rpm: alignak-all-VERSION-RELEASE_BUILDTIMESTAMP_COMMITID.ARCH.rpm		
+```
