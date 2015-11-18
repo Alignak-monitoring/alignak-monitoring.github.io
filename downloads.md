@@ -10,7 +10,7 @@ menu: true
 Look into the [documentation](http://alignak-doc.readthedocs.org/en/latest/02_installation/index.html).
 
 
-## Weekly versions (so not stable)
+## Weekly versions (dev version)
 
 If you want recent builds have a look here :
 
