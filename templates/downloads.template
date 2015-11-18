@@ -1,8 +1,8 @@
 ---
-layout: page
-title: Download
-permalink: /download/
-menu: true
+{{layout}}
+{{title}}
+{{permalink}}
+{{menu}}
 ---
 
 If you want recent builds have a look here :

@@ -13,15 +13,15 @@ else:
 
 TEMPLATE = "downloads.template"
 
-env = Environment(loader=FileSystemLoader(os.path.join(ALIGNAK_PATH, 'templates'))
+env = Environment(loader=FileSystemLoader(os.path.join(ALIGNAK_PATH, 'templates')))
 template = env.get_template(TEMPLATE)
 
 distros = []
 for dirpath, dirnames, filenames in os.walk(os.path.join(ALIGNAK_PATH,"build")):
     if len(filenames) > 0:
         distros.append({"name": dirpath.split("/")[-1],
-                        "link": os.path.join('build', dirpath.split("/")[-1], filenames[0])})
+                        "link": os.path.join('/build', dirpath.split("/")[-1], filenames[0])})
 
 out_file = file(os.path.join(ALIGNAK_PATH, TEMPLATE.replace("template","md")),'w')
-out_file.write(template.render(distros=distros))
+out_file.write(template.render(distros=distros, layout="layout: page", title="title: Download", permalink="permalink: /download/", menu="menu: true"))
 out_file.close()
