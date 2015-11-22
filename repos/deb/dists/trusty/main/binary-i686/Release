@@ -1,0 +1,5 @@
+Component: main
+Origin: alignak
+Label: Alignak deb Repository
+Architecture: i686
+Description: This repository contains Alignak deb packages

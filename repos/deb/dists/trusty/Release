@@ -1,0 +1,37 @@
+Origin: alignak
+Label: Alignak deb Repository
+Codename: trusty
+Date: Sun, 22 Nov 2015 17:40:10 UTC
+Architectures: amd64 i686
+Components: main
+Description: This repository contains Alignak deb packages
+MD5Sum:
+ 2262cf3b1929d581535aa97462e693e6 1055 main/binary-amd64/Packages
+ e022b3f49df5ab4f40a812641bacc321 643 main/binary-amd64/Packages.gz
+ fd3161acbc4bc42a79fbc9cc675215a4 141 main/binary-amd64/Release
+ 2262cf3b1929d581535aa97462e693e6 1055 main/binary-i686/Packages
+ e022b3f49df5ab4f40a812641bacc321 643 main/binary-i686/Packages.gz
+ 1314e5a51dd3f30e1b9a6c05f2c9a3a0 140 main/binary-i686/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ e35e2679b38790795659d55620e7130b 142 main/source/Release
+SHA1:
+ d627f42cfe5a57a509b3af8bdac61af296b6ea73 1055 main/binary-amd64/Packages
+ 6ef29f1439dfc1f059034f9d262baad2a84c4c1d 643 main/binary-amd64/Packages.gz
+ 0be7e6cb6d1f9936c7d9d0f7a363235ce6517e66 141 main/binary-amd64/Release
+ d627f42cfe5a57a509b3af8bdac61af296b6ea73 1055 main/binary-i686/Packages
+ 6ef29f1439dfc1f059034f9d262baad2a84c4c1d 643 main/binary-i686/Packages.gz
+ 71311e1ab2a4989202486a21426f6b3629193afd 140 main/binary-i686/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 18adf619f8cb2ff7da34c6f5b663a9f8ab2ed994 142 main/source/Release
+SHA256:
+ 1717376379e4aca6166722767f63dda5464a43ba127c509db9d7556863f28138 1055 main/binary-amd64/Packages
+ 9e9586f5f7876dcd03b889b3f1620d64843fb40275eaff7778cf61de1089a33b 643 main/binary-amd64/Packages.gz
+ 9ad658dc46eab82e9792250cf6bdbeaa69fb3a4f1208c0cc032f9ae1110f500b 141 main/binary-amd64/Release
+ 1717376379e4aca6166722767f63dda5464a43ba127c509db9d7556863f28138 1055 main/binary-i686/Packages
+ 9e9586f5f7876dcd03b889b3f1620d64843fb40275eaff7778cf61de1089a33b 643 main/binary-i686/Packages.gz
+ 4ccb6e1137781c358305209cf1050005f1e1b51b40b10694f5a65a0c28e1a0f6 140 main/binary-i686/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ c2cd4b22ff8b3f9a578c1601e245853123aa93c9b316ba6de4dd20eedc90fad9 142 main/source/Release

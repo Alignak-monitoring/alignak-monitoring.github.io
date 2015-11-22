@@ -1,0 +1,24 @@
+Package: alignak-all
+Source: alignak
+Version: 0.1-1~precise
+Architecture: all
+Maintainer: Sebastien Coavoux <debian@pyseb.cx>
+Installed-Size: 2086
+Depends: python2.7, python (>= 2.7.1-0ubuntu2), python (<< 2.8), python-cherrypy3, python-requests (>= 2.7.0), python-importlib, python-pbr, python-termcolor, python-setproctitle, python-ujson, adduser
+Recommends: monitoring-plugins-basic, bsd-mailx | mailx
+Replaces: shinken
+Homepage: https://alignak-monitoring.github.io/
+Priority: optional
+Section: net
+Filename: pool/main/a/alignak/alignak-all_0.1-1~precise_all.deb
+Size: 392316
+SHA256: c8624ca06ffc7200cc416f02dd8659db03846ae3cbf99dd0f34004805f4ef524
+SHA1: ce3f506691d00a0b4a7835169f70e009371a978b
+MD5sum: ba8896112dae9cf05c128ecd9ae71b5d
+Description: Flexible monitoring tool - Common files
+ Common files for alignak monitoring.
+ .
+ Alignak is a new, Nagios compatible monitoring tool, written in Python. The
+ main goal of Alignak is to allow users to have a fully flexible architecture
+ for their monitoring system that can easily scale to large environments.
+
