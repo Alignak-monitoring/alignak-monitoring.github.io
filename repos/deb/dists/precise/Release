@@ -1,36 +1,36 @@
 Origin: alignak
 Label: Alignak deb Repository
 Codename: precise
-Date: Fri, 27 Nov 2015 00:50:29 UTC
+Date: Sun, 10 Jan 2016 21:50:39 UTC
 Architectures: amd64 i386
 Components: main
 Description: This repository contains Alignak deb packages
 MD5Sum:
- e96c601021e304f0962f2a4bd08bcd89 4372 main/binary-amd64/Packages
- f4ed4143491f12ec277ebb34f874942d 2005 main/binary-amd64/Packages.gz
+ 29c152bb3d75e3e02a919e0b44a80296 4424 main/binary-amd64/Packages
+ cccbaa5c9af8a4c791684a366f0bd5b0 2021 main/binary-amd64/Packages.gz
  fd3161acbc4bc42a79fbc9cc675215a4 141 main/binary-amd64/Release
- fbe0a0b9c2ae5bab090a0e8920ac3fd7 2627 main/binary-i386/Packages
- e9432f16f77c56db00f0239a0e13878c 1268 main/binary-i386/Packages.gz
+ fcdf7e7847495a32ca2351e6663f17df 3744 main/binary-i386/Packages
+ 54f205ca45f0cd7ab971dbb237202a8a 1754 main/binary-i386/Packages.gz
  0108a9b2f07a57ecde8b92ae83c016d2 140 main/binary-i386/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  e35e2679b38790795659d55620e7130b 142 main/source/Release
 SHA1:
- 74eb129a92206fbad597e061813405440141d958 4372 main/binary-amd64/Packages
- 56d724b4ea23c4a6c15111c98d515a6529bce6d3 2005 main/binary-amd64/Packages.gz
+ 31f51d693d91b8d86cb58abd85e6fcebaaf34544 4424 main/binary-amd64/Packages
+ 782784df690cdc9df3d0e1d0cf05c6dc3c4fa582 2021 main/binary-amd64/Packages.gz
  0be7e6cb6d1f9936c7d9d0f7a363235ce6517e66 141 main/binary-amd64/Release
- 37a82f1046b4a99a7cb9577009d431d8c72c0391 2627 main/binary-i386/Packages
- d0ae1ef546b9d7023831dcd8baacb32062883179 1268 main/binary-i386/Packages.gz
+ d3077494433c6cfba7c23b1a30e747ac77de6f0e 3744 main/binary-i386/Packages
+ faa2d58312c740b489a00cebeb30ccde7663792a 1754 main/binary-i386/Packages.gz
  a46bbe1fcbeaebcfbf82a3a958d3808256d474db 140 main/binary-i386/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  18adf619f8cb2ff7da34c6f5b663a9f8ab2ed994 142 main/source/Release
 SHA256:
- 5ea813cfb67ce8550e29181bc5b02653cba355f7cd65a672309096f33ca09f8f 4372 main/binary-amd64/Packages
- 353f4b26b9bc46cf536fccafc4c31f77ca93692d7a6142cd1ac619cf16bb1613 2005 main/binary-amd64/Packages.gz
+ 16cfcce1b91e1a58edd5d932ddd123d7f168219795dc5a75d8aa832e268027a6 4424 main/binary-amd64/Packages
+ ba242215c7fd044c2a18a797404d3d217d39013228a34eca3fe8bb1fa5eafb3f 2021 main/binary-amd64/Packages.gz
  9ad658dc46eab82e9792250cf6bdbeaa69fb3a4f1208c0cc032f9ae1110f500b 141 main/binary-amd64/Release
- 0ce77e95766fe22e6ef6539db8eb1f2c6adf4f57325410b0f11e603d0045e828 2627 main/binary-i386/Packages
- 227d25a7729c2fc82685c7f2c656af9a9537441a26e19f9c96f7e0ea5b1abb53 1268 main/binary-i386/Packages.gz
+ 9fce2e56a48e9143e721eb8df3b0e6c1a186bdc662e9b082ecd69a00c6feb372 3744 main/binary-i386/Packages
+ 86fc6ac4f0e405e7897224f584cccc5dd3f4152f71393150b83516be0a47396a 1754 main/binary-i386/Packages.gz
  b2bf979de3b1ead2e5a11c9d6e13c8715e5bf6610e2f13e597f38a256f7a1643 140 main/binary-i386/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
