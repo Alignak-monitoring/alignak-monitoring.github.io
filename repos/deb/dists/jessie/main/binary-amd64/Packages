@@ -1,20 +1,20 @@
 Package: alignak-all
 Source: alignak
-Version: 0.1-1.1452102354.b86c902~jessie
+Version: 0.2-1~jessie
 Architecture: all
 Maintainer: Sebastien Coavoux <debian@pyseb.cx>
-Installed-Size: 2070
+Installed-Size: 2068
 Depends: python (>= 2.7), python (<< 2.8), python-cherrypy3, python-requests (>= 2.7.0), python-pbr, python-termcolor, python-setproctitle, python-ujson, python-numpy, adduser
 Recommends: monitoring-plugins-basic, bsd-mailx | mailx
 Replaces: shinken
 Homepage: https://alignak-monitoring.github.io/
 Priority: optional
 Section: net
-Filename: pool/main/a/alignak/alignak-all_0.1-1.1452102354.b86c902~jessie_all.deb
-Size: 280794
-SHA256: 00ac762007c335790c762b0b7cc2f2530e656cce9c7ce2fdcf96156c47a0e872
-SHA1: c93180ca355f0ad9d832fc0f7143b9a4d9ac17c6
-MD5sum: c22f12c7da70905e41dc121c1d65be92
+Filename: pool/main/a/alignak/alignak-all_0.2-1~jessie_all.deb
+Size: 280526
+SHA256: 0b8aad0245575de5405006ff8ff49505031d17c816c0d896ba5876877e6514ed
+SHA1: e4b1edf9681e01738d8cf114b2b4b5dc6b0a5d9e
+MD5sum: c0ff4c4ee9d3f83660d48c7c513a08b1
 Description: Flexible monitoring tool - Common files
  Common files for alignak monitoring.
  .
