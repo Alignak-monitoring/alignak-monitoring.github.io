@@ -28,3 +28,4 @@ deb: alignak-all_VERSION-RELEASE.BUILDTIMESTAMP.COMMITID_ARCH.deb
 rpm: alignak-all-VERSION-RELEASE_BUILDTIMESTAMP_COMMITID.ARCH.rpm		
 ```
 
+Public key is available here : [alignak_pub.key](/repos/alignak_pub.key)
