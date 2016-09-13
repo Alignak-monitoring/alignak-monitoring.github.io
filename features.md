@@ -5,7 +5,7 @@ permalink: /features/
 menu: true
 ---
 
-Features or Alignak are:
+Features of Alignak are:
 
 * Nagios compatible, so you can use your nagios cfg files
 * Easy to install (DEB, RPM, PIP)
