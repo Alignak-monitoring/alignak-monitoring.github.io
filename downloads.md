@@ -15,7 +15,7 @@ Look into the [documentation](http://alignak-doc.readthedocs.org/en/latest/02_in
 If you want recent builds have a look here :
 
 
-* [centos_7](/build/centos_7/alignak-all-0.2-1_1475169502_ce84aa5.el7.x86_64.rpm)
+* [centos_7](/build/centos_7/alignak-all-0.2-1_1475663319_1595ffd.el7.x86_64.rpm)
 
 
 The package name as the following format:
