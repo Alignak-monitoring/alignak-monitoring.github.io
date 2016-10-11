@@ -205,3 +205,13 @@ pre {
         }
     }
 }
+
+
+.mbtablestyle {
+        border-collapse: collapse;
+
+   > table, td, th {
+        border: 1px solid #949494;
+        width: 300px;
+        }
+}
