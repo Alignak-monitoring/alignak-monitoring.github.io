@@ -38,7 +38,8 @@ These partners add resources to the projet.
 <div style="float: right; width: 50%;">
 <h3><i>DCS</i></h3>
 <ul>
-<li>contact: <a href="mailto:c.burette@dcsit-group.com">Christophe Burette Pommay</a> (product director)</li>
+<li>contact: Christophe Burette Pommay (product director)</li>
+<li>Email: <a href="mailto:c.burette@dcsit-group.com">c.burette@dcsit-group.com</a></li>
 <li>phone: +33 (0)4.78.95.81.70</li>
 </ul>
 </div>
