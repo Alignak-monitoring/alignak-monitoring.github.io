@@ -3,6 +3,7 @@ layout: page
 title: Download
 permalink: /download/
 menu: true
+order: 4
 ---
 
 ## Stable versions

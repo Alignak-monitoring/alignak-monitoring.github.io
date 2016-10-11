@@ -3,6 +3,7 @@ layout: page
 title: Our friends
 permalink: /friends/
 menu: true
+order: 5
 ---
 
 Alignak has friends. 

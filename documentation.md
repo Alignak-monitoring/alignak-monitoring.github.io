@@ -3,6 +3,7 @@ layout: page
 title: Documentation
 permalink: /documentation/
 menu: true
+order: 3
 ---
 
 The documentation is available on readthedocs.org:

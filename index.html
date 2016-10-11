@@ -1,23 +1,16 @@
 ---
-layout: default
+layout: page
+title: Project introduction
+menu: true
+order: 1
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+<a href="/presentation/index.html" target="_blank">Play it here in full screen</a>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<iframe width="1024" height="650" marginheight="0" marginwidth="0" src="/presentation/index.html">
+  Fallback text here for unsupporting browsers, of which there are scant few.
+</iframe>
 
 </div>

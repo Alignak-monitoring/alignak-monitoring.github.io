@@ -1,0 +1,274 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Alignak - monitoring</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/moon.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+<section data-markdown>
+# Alignak monitoring
+# integrated monitoring solution
+</section>
+
+<section data-markdown>
+## Introduction 
+
+Alignak is a complete monitoring solution. 
+
+It will help you to easily implement the monitoring of your resources (servers, applications, network devices...). 
+
+The reporting is too an important part of the solution and we especially worked on it to offer powerful views on webui.
+
+
+</section>
+
+<section data-markdown>
+<script type="text/template">
+### Features
+
+* Fail-over <!-- .element: class="fragment" data-fragment-index="1" -->
+* Load balancing <!-- .element: class="fragment" data-fragment-index="2" -->
+* REST API for configuration and reporting <!-- .element: class="fragment" data-fragment-index="3" -->
+* Database for configuration, history, reporting <!-- .element: class="fragment" data-fragment-index="4" -->
+* WebUI <!-- .element: class="fragment" data-fragment-index="5" -->
+* Nagios / Shinken compatible features <!-- .element: class="fragment" data-fragment-index="6" -->
+* Robust code (many [unit|integration|functional] tests) <!-- .element: class="fragment" data-fragment-index="7" -->
+* Software quality with pep8 + pylint conformity <!-- .element: class="fragment" data-fragment-index="8" -->
+* Native support of grafana, timeseries (graphite/carbon, influxdb), logs <!-- .element: class="fragment" data-fragment-index="9" -->
+* and also standard monitoring features... <!-- .element: class="fragment" data-fragment-index="10" -->
+
+</script>
+</section>
+
+<section data-markdown>
+### Global schema
+
+![Alt text](image/global_schema.png)
+
+</section>
+
+<section data-markdown>
+### Alignak: the monitoring framework (1/2)
+
+![Alt text](image/alignak_schema.png)
+
+</section>
+
+<section data-markdown>
+<script type="text/template">
+### Alignak: the monitoring framework (2/2)
+
+Alignak is made of several parts that can be run on the same server or distributed:
+
+* Arbiter: manages configuration and is an orchestra conductor <!-- .element: class="fragment" data-fragment-index="1" -->
+* Scheduler: schedules the checks to execute <!-- .element: class="fragment" data-fragment-index="2" -->
+* Poller: executes the checks <!-- .element: class="fragment" data-fragment-index="3" -->
+* Broker: gets event broks. As an example, populate the live state to the Backend <!-- .element: class="fragment" data-fragment-index="4" -->
+* Reactionner: executes actions scripts (notifications, event handler...) <!-- .element: class="fragment" data-fragment-index="5" -->
+* Receiver: collects passive checks. As an example: NSCA <!-- .element: class="fragment" data-fragment-index="6" -->
+
+</script>
+</section>
+
+
+<section data-markdown>
+### Alignak-backend: configuration & reporting
+
+![Alt text](image/backend_schema.png)
+
+</section>
+
+
+<section data-markdown>
+<script type="text/template">
+### How-to configuration 1/2
+
+The steps:
+
+* Add / update elements in backend (commands, hosts, services...) via API (command line, client, webui, plugin Monitoring for GLPI...) <!-- .element: class="fragment" data-fragment-index="1" -->
+* Start Alignak arbiter and it will get the configuration from the backend through the REST API<!-- .element: class="fragment" data-fragment-index="2" -->
+* Alignak arbiter dispatchs the configuration to other Alignak modules <!-- .element: class="fragment" data-fragment-index="3" -->
+* Periodically, the Arbiter checks if the configuration changed in backend. If so it gets and loads the new configuration <!-- .element: class="fragment" data-fragment-index="4" -->
+</script>
+</section>
+
+
+<section data-markdown>
+### How-to configuration 2/2
+
+![Alt text](image/configuration_schema.png)
+
+</section>
+
+
+<section data-markdown>
+### How-to resources checks
+
+
+![Alt text](image/check_schema.png)
+
+</section>
+
+
+<section data-markdown>
+### Where checks results go
+
+
+![Alt text](image/wherecheckresult_schema.png)
+
+</section>
+
+
+<section data-markdown>
+<script type="text/template">
+### Backend client
+
+We support different clients / libraries to dialog with the Backend:
+* Python 2.7 / 3.x client: <!-- .element: class="fragment" data-fragment-index="1" --> https://github.com/Alignak-monitoring-contrib/alignak-backend-client <!-- .element: class="fragment" data-fragment-index="2" -->
+* PHP library: <!-- .element: class="fragment" data-fragment-index="3" --> https://github.com/Alignak-monitoring-contrib/alignak-backend-php-client <!-- .element: class="fragment" data-fragment-index="4" -->
+
+For information, the python client is used by the Alignak Arbiter, the Broker modules and the WebUI. <!-- .element: class="fragment" data-fragment-index="5" -->
+
+Of course, any other low-level client may be used: curl, postman, ... <!-- .element: class="fragment" data-fragment-index="6" -->
+</script>
+</section>
+
+
+<section data-markdown>
+<script type="text/template">
+## WebUI
+
+In the WebUI, we can:
+
+* Widget used to compose your dashboard <!-- .element: class="fragment" data-fragment-index="1" -->
+* Worldmap used to display on map works your hosts and state <!-- .element: class="fragment" data-fragment-index="2" -->
+* Minemap <!-- .element: class="fragment" data-fragment-index="3" -->
+* See all elements (hosts, services, commands, timeperiods...) <!-- .element: class="fragment" data-fragment-index="4" -->
+* See log table<!-- .element: class="fragment" data-fragment-index="5" -->
+* Manage acknowledge, downtime and recheck<!-- .element: class="fragment" data-fragment-index="6" -->
+* Graph of each check <!-- .element: class="fragment" data-fragment-index="7" -->
+* and more... <!-- .element: class="fragment" data-fragment-index="8" -->
+
+
+</script>
+</section>
+
+
+<section data-markdown>
+<script type="text/template">
+## WebUI - graphs (1/2)
+
+The Alignak backend:
+
+* Creates dashboards and graphs for each command (host / service) in Grafana <!-- .element: class="fragment" data-fragment-index="1" -->
+* Stores the id of the graph in host / service endpoint <!-- .element: class="fragment" data-fragment-index="2" -->
+
+The webui:<!-- .element: class="fragment" data-fragment-index="3" -->
+
+* Gets and displays the graphs from Grafana <!-- .element: class="fragment" data-fragment-index="4" -->
+
+
+</script>
+</section>
+
+<section data-markdown>
+## WebUI - graphs (2/2)
+
+![Alt text](image/webui_graphs.png)
+
+</section>
+
+
+<section data-markdown>
+## Load-balancing usage
+
+![Alt text](image/loadbalancing_schema.png)
+
+</section>
+
+
+
+<section data-markdown>
+## Fail-over usage
+
+
+</section>
+
+
+<section data-markdown>
+## Realms usage
+
+
+</section>
+
+
+<section data-markdown>
+<script type="text/template">
+## Migrate from another monitoring system
+
+If you already have Nagios or Shinken configuration files, you can:
+
+* Start Alignak with your configuration files (without using the Alignak Backend) <!-- .element: class="fragment" data-fragment-index="1" -->
+* Import your data into the Alignak Backend thanks to an importation script <!-- .element: class="fragment" data-fragment-index="2" -->
+
+
+</script>
+</section>
+
+<section data-markdown>
+## Documentation
+
+We try to have a best complete documentation.
+
+Perhaps not really complete (you can help us!) but want it simple and understandable. 
+
+</section>
+
+
+
+
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+                                width: 1350,
+                                height: 700,
+                                fragments: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

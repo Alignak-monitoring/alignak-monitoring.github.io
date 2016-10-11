@@ -3,6 +3,7 @@ layout: page
 title: References
 permalink: /references/
 menu: true
+order: 6
 ---
 
 This is a list of references (companies use Alignak).
