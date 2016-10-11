@@ -24,7 +24,8 @@ Alignak has friends, it's people / company contribute.
 <h2>Partners</h2>
 
 Alignak has partners.
-These partners add resources to the projet.
+These partners add resources to the projet and propose services like support, 
+installation, training...
 
 
 <div style="float: left; width: 50%;">
