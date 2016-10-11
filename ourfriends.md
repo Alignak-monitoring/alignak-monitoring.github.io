@@ -31,7 +31,7 @@ These partners add resources to the projet.
 <h3><i>siprossii</i></h3>
 <ul>
 <li >web: <a href="https://siprossii.com">https://siprossii.com</a></li>
-<li>contact: Durieux David</li>
+<li>contact: David Durieux</li>
 </ul>
 </div>
 
