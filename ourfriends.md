@@ -12,9 +12,9 @@ order: 5
 Alignak has friends, it's people / company contribute.
 
 <ul>
-<li> David Durieux</li>
-<li> Frédéric Mohier</li>
-<li> Sebastien Coavoux</li>
+<li> David Durieux (ddurieux)</li>
+<li> Frédéric Mohier (mohierf)</li>
+<li> Sebastien Coavoux (Seb-Solon)</li>
 <li> <a href="http://www.ipmfrance.fr">IPM France</a></li>
 <li> Matthieu Estrada (Algorys)</li>
 </ul>
