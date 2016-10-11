@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="loadbalancing_schema.svg"
-   inkscape:export-filename="/Donnees/developpement/sources/presentations/alignak/general/image/loadbalancing_schema.png"
+   inkscape:export-filename="/Donnees/developpement/sources/Alignak-monitoring/alignak.github.io/presentation/image/loadbalancing_schema.png"
    inkscape:export-xdpi="84.856796"
    inkscape:export-ydpi="84.856796">
   <defs
@@ -1299,7 +1299,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70910507"
-     inkscape:cx="232.80729"
+     inkscape:cx="529.84488"
      inkscape:cy="308.51617"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -1328,14 +1328,12 @@
      id="layer1"
      transform="translate(0,-450)">
     <rect
-       style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#002b36;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 4;stroke-dashoffset:0;stroke-opacity:1"
        id="rect8626"
        width="991.33167"
        height="611.68701"
        x="7.9390621"
-       y="471.02182"
-       rx="10"
-       ry="10" />
+       y="471.02182" />
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter7877)"
        id="rect4138-2-3-0"
