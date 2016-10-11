@@ -1,5 +1,5 @@
 # Site settings
-title: Alignak [monitoring]
+title: Alignak
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Integrated monitoring solution. 
