@@ -1696,11 +1696,11 @@
        style="opacity:1;fill:#002b36;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect6346-37"
        width="44.616333"
-       height="55.653328"
+       height="76.596031"
        x="230.23616"
-       y="821.26813" />
+       y="805.25311" />
     <flowRoot
-       transform="translate(-125.60349,814.56196)"
+       transform="translate(-125.60349,820.56196)"
        xml:space="preserve"
        id="flowRoot4140-3-7-3-3-1-9-3-8-5-3"
        style="font-style:normal;font-weight:normal;font-size:13px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
@@ -1716,10 +1716,10 @@
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path15038-7-4-5-8"
        cx="250.7803"
-       cy="855.98712"
+       cy="861.98712"
        r="13.78438" />
     <flowRoot
-       transform="translate(-116.55592,788.60717)"
+       transform="translate(-116.55592,772.60717)"
        xml:space="preserve"
        id="flowRoot4140-3-7-3-3-1-2-5-2-19"
        style="font-style:normal;font-weight:normal;font-size:13px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
@@ -1731,7 +1731,9 @@
            y="29.362206"
            style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:Verdana;-inkscape-font-specification:Verdana;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
-         id="flowPara4874-1">Various possibilities</flowPara></flowRoot>    <path
+         id="flowPara4874-1">Various possibilities</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:Verdana;-inkscape-font-specification:Verdana;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+         id="flowPara7168">(not all listed here)</flowPara></flowRoot>    <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-8-9-6-2)"
        d="m 249.63015,1016.8506 -43.77319,0"
        id="path12929-4-7-2"
