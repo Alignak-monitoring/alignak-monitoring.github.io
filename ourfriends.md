@@ -17,6 +17,7 @@ Alignak has friends, it's people / company contribute.
 <li> Sebastien Coavoux (Seb-Solon)</li>
 <li> <a href="http://www.ipmfrance.fr">IPM France</a></li>
 <li> Matthieu Estrada (Algorys)</li>
+<li> website <a href="http://sysadmin.cool/">http://sysadmin.cool/</a></li>
 </ul>
 </div>
 
