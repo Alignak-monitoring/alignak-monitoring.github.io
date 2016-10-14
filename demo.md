@@ -8,7 +8,7 @@ order: 7
 
 We have a demo of alignak.
 
-The url of the webui is: [demo.alignak.net](http://demo.alignak.net)
+The url of the webui is: <a href="http://demo.alignak.net/" target="_blank">demo.alignak.net</a>
 
 The login is: _admin_
 
