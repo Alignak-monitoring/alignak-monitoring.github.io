@@ -3,7 +3,6 @@ layout: page
 title: Download
 permalink: /download/
 menu: true
-order: 4
 ---
 
 ## Stable versions
@@ -16,13 +15,13 @@ Look into the [documentation](http://alignak-doc.readthedocs.org/en/latest/02_in
 If you want recent builds have a look here :
 
 
-* [debian_8](/build/debian_8/alignak-all_0.2-1.1475855024.0ec00de_all.deb)
+* [debian_8](/build/debian_8/alignak-all_0.2-1.1476606380.419f3fa_all.deb)
 
-* [centos_7](/build/centos_7/alignak-all-0.2-1_1475855024_0ec00de.el7.x86_64.rpm)
+* [centos_7](/build/centos_7/alignak-all-0.2-1_1476606380_419f3fa.el7.x86_64.rpm)
 
-* [ubuntu_12](/build/ubuntu_12/alignak-all_0.2-1.1475855024.0ec00de_all.deb)
+* [ubuntu_12](/build/ubuntu_12/alignak-all_0.2-1.1476606380.419f3fa_all.deb)
 
-* [ubuntu_14](/build/ubuntu_14/alignak-all_0.2-1.1475855024.0ec00de_all.deb)
+* [ubuntu_14](/build/ubuntu_14/alignak-all_0.2-1.1476606380.419f3fa_all.deb)
 
 
 The package name as the following format:
