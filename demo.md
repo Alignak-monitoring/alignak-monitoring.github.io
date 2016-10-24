@@ -3,7 +3,7 @@ layout: page
 title: Demo
 permalink: /demo/
 menu: true
-order: 7
+order: 8
 ---
 
 We have a demo of alignak.

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Our friends
+title: Friends
 permalink: /ourfriends/
 menu: true
-order: 5
+order: 6
 ---
 
 <div style="float: left; width: 50%;">
