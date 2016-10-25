@@ -8,7 +8,7 @@ order: 4
 
 ## Stable versions
 
-Look into the [documentation](http://alignak-doc.readthedocs.org/en/latest/02_installation/index.html).
+Have a look into the [documentation](http://alignak-doc.readthedocs.org/en/latest/02_installation/index.html) to install and setup the most recent stable version.
 
 
 ## Weekly versions (dev version)
@@ -25,7 +25,7 @@ If you want recent builds have a look here :
 * [ubuntu_14](/build/ubuntu_14/alignak-all_0.2-1.1477176074.368ece2_all.deb)
 
 
-The package name as the following format:
+The package name has the following format:
 
 ```		
 deb: alignak-all_VERSION-RELEASE.BUILDTIMESTAMP.COMMITID_ARCH.deb
