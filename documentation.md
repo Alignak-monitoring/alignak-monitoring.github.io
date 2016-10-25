@@ -6,7 +6,7 @@ menu: true
 order: 3
 ---
 
-The documentation is available on readthedocs.org:
+The documentation for Alignak and its extensions is available on readthedocs.org:
 
 
 * [User documentation](http://alignak-doc.readthedocs.org/en/latest/)
