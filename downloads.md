@@ -18,6 +18,8 @@ If you want recent builds have a look here :
 
 * [debian_8](/build/debian_8/alignak-all_0.2-1.1477929698.1c56ce4_all.deb)
 
+* [centos_7](/build/centos_7/alignak-all-0.2-1_1477929698_1c56ce4.el7.x86_64.rpm)
+
 * [ubuntu_12](/build/ubuntu_12/alignak-all_0.2-1.1477929698.1c56ce4_all.deb)
 
 * [ubuntu_16](/build/ubuntu_16/alignak-all_0.2-1.1477929698.1c56ce4_all.deb)
