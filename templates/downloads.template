@@ -3,11 +3,12 @@
 {{title}}
 {{permalink}}
 {{menu}}
+{{order}}
 ---
 
 ## Stable versions
 
-Have a look into the [documentation](http://alignak-doc.readthedocs.org/en/latest/02_installation/index.html).
+Have a look into the [documentation](http://alignak-doc.readthedocs.org/en/latest/02_installation/index.html) to install and setup the most recent stable version.
 
 
 ## Weekly versions (dev version)

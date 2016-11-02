@@ -23,5 +23,5 @@ for dirpath, dirnames, filenames in os.walk(os.path.join(ALIGNAK_PATH,"build")):
                         "link": os.path.join('/build', dirpath.split("/")[-1], filenames[0])})
 
 out_file = file(os.path.join(ALIGNAK_PATH, TEMPLATE.replace("template","md")),'w')
-out_file.write(template.render(distros=distros, layout="layout: page", title="title: Download", permalink="permalink: /download/", menu="menu: true"))
+out_file.write(template.render(distros=distros, layout="layout: page", title="title: Download", permalink="permalink: /download/", menu="menu: true", order="order: 4"))
 out_file.close()
