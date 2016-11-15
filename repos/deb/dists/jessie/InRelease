@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
 Origin: alignak
 Label: Alignak deb Repository
 Codename: jessie
@@ -26,3 +29,20 @@ SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
  c2cd4b22ff8b3f9a578c1601e245853123aa93c9b316ba6de4dd20eedc90fad9 142 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQIcBAEBCAAGBQJYKl9yAAoJEE3QSEvN+OnErzsP/j3xHpzBPv+KraiClBqgOM3X
+FIhiUVirOGcraoKerL7yqTDYoDBRzm20dQCLTO9k3h4nF7/CD//Pkm1WvYf9+7eB
+OxBYt8zyhTzW89IRhqNZADfTzX9QjmLkud+FzqslH7XfER/wHu6xKDIOmby4Qzoe
+TCH7N8qtuQ4hn7nkOHo8rhhVCf70nHnSyWZoAkEkHJ80z4ATmkRqIkQ0u+XRA+oH
+nPEP29bfEKzhI2Hm4i/nOlSezTFWcZlw0Rh/lpigpnJDjFFLN/+j7QbGpCpxbuxF
+eXJhILDZR8Y2d7CnsXr8HEsyr/Jkd+h7NX22xi6TrCtcMxT2/HZ6g7C0dJ/o2YNs
+dyeipaq+kaP6w9UJBKO59ohoLsgMmdN7SAwCn3+Ru42cRlyaaa6MmD9kxSV78kmG
+DZZ9c8ppPdqAofir5lYMB1gc9w8lYi01QbAZo3nw3iaW7xSWgDHb9wgtRHcMGkNv
+bVprycUvfERh+88J8NL7yKALBcn1JLGput3HDm0yl9yvJkmdpyeb9VUt5tggnRim
+259gGynf0i6thVZFCEw6kMthspyr8ry50wg2Ok5u5+Vss57RS61bsVE8yS8BY71Q
+x+w6kGeENCEGfm3CtZjObkpjtg22IDzig0+1k1ApqB0hdg20nF2XyqdVBTWIPs0b
+GfyPretsYzizbX+5Y2Ie
+=QgtJ
+-----END PGP SIGNATURE-----

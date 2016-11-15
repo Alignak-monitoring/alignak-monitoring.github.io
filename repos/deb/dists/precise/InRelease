@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
 Origin: alignak
 Label: Alignak deb Repository
 Codename: precise
@@ -26,3 +29,20 @@ SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
  c2cd4b22ff8b3f9a578c1601e245853123aa93c9b316ba6de4dd20eedc90fad9 142 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQIcBAEBCAAGBQJYKl+LAAoJEE3QSEvN+OnELeoQAKRYbUbPXOm4/Jt/BMrgw3mL
+OBBno/Aw8CVKt0Hr87hNYYnv7F/1KCT2ZEXnYBr/FPmbQ4GliNcU80fZ4syY1PnU
+4WMWzSnarX8tdbbThrgWYIouHf8gL7ES9k+wVlfIwLHYKUgakSfqRJsAlHY3RFlA
+y2AAPsY9QkvRXP2yKdNNeNr4rBSTywHVeEJuOOqSFqv5+fMEZXScp01YVCFPtJ5f
+UIXdR5+fxWXz16unZ/lcqO4meZJKmU6j/LV7k3eI4lfBs7s41f56+OBkPli8QHKf
+4vamggWdCDZROugV3sAzXs/qq+z6l4D7yWw9IebkZTnNkJCheCZeyq6lnnNU6EsM
+8ldcpWhioEMfd8jUPAluoYowa6kCFIyCSr1r/R8h2Yvvw2vidFWHXbSiRqzRgwDq
+rpvqXL+JrnSI1OeoMs2wCJaa674PSnp9kNJCkudiS5icGJIDMVTpJe/uqktRbsd9
+ueOzkOANG7RS9fr3q48Aq2GWb1uA+EYdwKxMQhyRIpX6ChxQ4f13VrX1QY508QUZ
+GC28/5MijE1DRI9WU1hfIwrLhLd5v0sfxwmJCB4OfeQz1Idn/ErrX5aY1yRrVK2q
+iTlY0AeUk/ceuktO6pLlmMvOJ3i1n/oCphvCVBFrmfMXJn+OxrkD0nbYMu3fSH/s
+WzQbGjtd4daCnFBbwxe6
+=iVUO
+-----END PGP SIGNATURE-----

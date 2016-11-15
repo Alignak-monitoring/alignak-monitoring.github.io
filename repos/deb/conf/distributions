@@ -1,21 +1,31 @@
 Origin: alignak
 Label: Alignak deb Repository
 Codename: jessie
-Architectures: amd64 i386 source
+Architectures: amd64 source
 Components: main
 Description: This repository contains Alignak deb packages
+SignWith: 4DD0484BCDF8E9C4
 
 Origin: alignak
 Label: Alignak deb Repository
 Codename: precise
-Architectures: amd64 i386 source
+Architectures: amd64 source
 Components: main
 Description: This repository contains Alignak deb packages
+SignWith: 4DD0484BCDF8E9C4
 
 Origin: alignak
 Label: Alignak deb Repository
 Codename: trusty
-Architectures: amd64 i386 source
+Architectures: amd64 source
 Components: main
 Description: This repository contains Alignak deb packages
+SignWith: 4DD0484BCDF8E9C4
 
+Origin: alignak
+Label: Alignak deb Repository
+Codename: xenial
+Architectures: amd64 source
+Components: main
+Description: This repository contains Alignak deb packages
+SignWith: 4DD0484BCDF8E9C4
