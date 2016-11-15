@@ -4,7 +4,7 @@ Hash: SHA256
 Origin: alignak
 Label: Alignak deb Repository
 Codename: xenial
-Date: Tue, 15 Nov 2016 01:07:02 UTC
+Date: Tue, 15 Nov 2016 03:17:24 UTC
 Architectures: amd64
 Components: main
 Description: This repository contains Alignak deb packages
@@ -32,17 +32,17 @@ SHA256:
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQIcBAEBCAAGBQJYKl/CAAoJEE3QSEvN+OnEVpUP/0N6Gjo0A5bxBVN7dzTtp+Ws
-v9w1YDCvkWNVDrle8/vyIMAwV1pjcq/VpZb87TyPp9TXRZEzLaixNCONCEhqt/KL
-IurV9Hv6iL2Jp5D4I7KeLOPsj7iYnFUS1pBROawzOOzGPmGKO58O0ZRvDEG8Sqyd
-+43flkA993GimeTPZJwK0UB+3bUufVPkboRCbHaHGEUcoze2cna+VfnSBCc/WpOv
-LIVzB+0iwQcCnWgSE1tBI5kNfjMyHa5CAq4nqGtvcxZjhuHjfUcwb4vy6R9Wxt5R
-5FBWC6+rvcwwhSF9g4P/k/JUpWj1f7HfGmvGYDVhgLmORC0fMOWxvIpJv3dfR1It
-apL8rb6/3AuENx2Nwhp80gkdmZ9ttWfPQvYrPF8Ws7gv6u7aC0D9+I4V27ybS/b/
-nYgIna0sHbejQgsrYPQEsYKps96yhh5FYr39D7GXKmUPUXG9nthpmTuOMXgqIkL8
-xG8Box1HvPsx+zHpo+OCVgbK/0tPeicRT+fQ6mj0HOTaZS5IBUtnsEm4ek/RNsKX
-kdIrDl/UuTVbunuuR+7ugE0S7CrxpwVksPdeaDaT8+YGrF9di6Y8FhY247zN1t4L
-QqMHUVciyYW0wB7ysJmbWk3NEo4pmm4/MR+chL1KbGFwqD/UWzFkkvnfcLfvsnQb
-BC+8Wg6/Kw99vtkPKHrQ
-=aRsJ
+iQIcBAEBCAAGBQJYKn5NAAoJEE3QSEvN+OnEC7wP/AngJGz4u60lKiEO9sOQR4xX
+P3gkui2fF+21rKo1WlPmq71K2DeyLs+/Rj9ms7kuSr+b2igFRAnTntowWuQXBD4Z
+bXrrQdyD5U9dn1+b/HaZgp/5Vx10sW48JPUA0MR9WJmnc6Dlai/Ojrt2f6h7O45T
+CgGVyKLlI+8xIUrBBdqAuPzUU736gtuhaMS56u1aXwzRWn8pJV9ylwmdvnjTqHQS
+RR1SeMIY8oBKspEnYi9IQVVzvvWni3PS9xY+hW2I/TPh/cgTYiYKt6SnrxcAY6vG
+L9iDDtzvBTDPU9Saou/OBYayFWh7HqWHxuU4+xCwhFg16EsvXEf1T0zpUhxUPrCq
+Yk0Obve9xNH6/xFqI8hw4gE84Pnjb6JOPJLoa1ApWMbZBoPSpkhtp1+YjfjTnsDq
+S7Lp+YOzRZ+Mj/ax5LP+lFP2ZBmYuqcrDXjI5pf+NE5PHjn6sLPQPvJHgLfdXElN
+ENJFZFhnM0hr3URCflYxaz+gYMkBsWaxnXHvSlBvD0l7t0opOtWDdUYaStm8W2FF
+znrq2ArEFY3jRMyo2avGxcKrtXppX9mJVH76WhbjFTPl/Ixdmq81/Pkr/USRpMC7
+0UjSI9YRaeCF0uUx7w3Qo2dHiJjKIxNaegYvgg9F3zY9yrlGvGLOH8awwXFTPCcn
+cO0KUfj7afRjyF3U5W2e
+=b04/
 -----END PGP SIGNATURE-----

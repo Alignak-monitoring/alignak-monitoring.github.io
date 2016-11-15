@@ -54,15 +54,15 @@ Installed-Size: 172
 Depends: python (<< 2.8), python (>= 2.7~), libc6 (>= 2.14), libffi6 (>= 3.0.4)
 Breaks: python-cffi (<< 1)
 Replaces: python-cffi (<< 1)
-Provides: python-cffi-backend-api-9729, python-cffi-backend-api-max (= 10239), python-cffi-backend-api-min (= 9729)
+Provides: python-cffi-backend-api-9729
 Homepage: http://cffi.readthedocs.org/
 Priority: optional
 Section: python
 Filename: pool/main/p/python-cffi/python-cffi-backend_1.5.2-1ubuntu1_amd64.deb
-Size: 58064
-SHA256: e1b99c93c9df5b8bd8c30823c3771012f5f7ca176c9ad4eed3a08bb4e6f4ad9f
-SHA1: c62919f45126a999bb0c48be651e2add75f410ca
-MD5sum: a26e226f2a0f305eee935e6995b0d82b
+Size: 58480
+SHA256: 7b1832ff8e422424d120b6dc122b2e6b29a9ddd802cbc58e88741179003cb45f
+SHA1: 9ec613d70509dc2a9389b73d99d22c7e48972b8d
+MD5sum: 747b9693ef03fa2681eab6d6627b9d4e
 Description: Foreign Function Interface for Python calling C code - backend
  Convenient and reliable way of calling C code from Python.
  .
