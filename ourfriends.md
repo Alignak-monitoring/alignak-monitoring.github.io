@@ -30,20 +30,15 @@ installation, training...
 
 
 <div style="float: left; width: 50%;">
-<h3><i>siprossii</i></h3>
-<ul>
-<li >web: <a href="https://siprossii.com">https://siprossii.com</a></li>
-<li>contact: David Durieux</li>
-</ul>
-</div>
-
-<div style="float: right; width: 50%;">
 <h3><i>DCS</i></h3>
 <ul>
 <li>contact: Christophe Burette Pommay (product director)</li>
 <li>Email: <a href="mailto:c.burette@dcsit-group.com">c.burette@dcsit-group.com</a></li>
 <li>phone: +33 (0)4.78.95.81.70</li>
 </ul>
+</div>
+
+<div style="float: right; width: 50%;">
 </div>
 
 </div>
