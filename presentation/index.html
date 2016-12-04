@@ -50,11 +50,12 @@ The reporting is too an important part of the solution and we especially worked 
 * REST API for configuration and reporting (hosts / services states) <!-- .element: class="fragment" data-fragment-index="3" -->
 * Database for configuration, history, reporting (hosts / services states) <!-- .element: class="fragment" data-fragment-index="4" -->
 * WebUI <!-- .element: class="fragment" data-fragment-index="5" -->
-* Nagios / Shinken compatible features <!-- .element: class="fragment" data-fragment-index="6" -->
-* Robust code (many [unit|integration|functional] tests) <!-- .element: class="fragment" data-fragment-index="7" -->
-* Software quality with pep8 + pylint conformity <!-- .element: class="fragment" data-fragment-index="8" -->
-* Native support of grafana, timeseries (graphite/carbon, influxdb), logs <!-- .element: class="fragment" data-fragment-index="9" -->
-* and also standard monitoring features... <!-- .element: class="fragment" data-fragment-index="10" -->
+* Alignak-app (end-user application) <!-- .element: class="fragment" data-fragment-index="6" -->
+* Nagios / Shinken compatible features <!-- .element: class="fragment" data-fragment-index="7" -->
+* Robust code (many [unit|integration|functional] tests) <!-- .element: class="fragment" data-fragment-index="8" -->
+* Software quality with pep8 + pylint conformity <!-- .element: class="fragment" data-fragment-index="9" -->
+* Native support of grafana, timeseries (graphite/carbon, influxdb), logs <!-- .element: class="fragment" data-fragment-index="10" -->
+* and also standard monitoring features... <!-- .element: class="fragment" data-fragment-index="11" -->
 
 </script>
 </section>
@@ -146,7 +147,7 @@ We support different clients / libraries to dialog with the Backend:
 * Python 2.7 / 3.x client: <!-- .element: class="fragment" data-fragment-index="1" --> https://github.com/Alignak-monitoring-contrib/alignak-backend-client <!-- .element: class="fragment" data-fragment-index="2" -->
 * PHP library: <!-- .element: class="fragment" data-fragment-index="3" --> https://github.com/Alignak-monitoring-contrib/alignak-backend-php-client <!-- .element: class="fragment" data-fragment-index="4" -->
 
-For information, the python client is used by the Alignak Arbiter, the Broker modules and the WebUI. <!-- .element: class="fragment" data-fragment-index="5" -->
+For information, the python client is used by the Alignak Arbiter, the Broker modules, Alignak-app and the WebUI. <!-- .element: class="fragment" data-fragment-index="5" -->
 
 Of course, any other low-level client may be used: curl, postman, ... <!-- .element: class="fragment" data-fragment-index="6" -->
 </script>
@@ -197,6 +198,41 @@ The webui:<!-- .element: class="fragment" data-fragment-index="3" -->
 
 </section>
 
+<section data-markdown>
+<script>
+## Alignak-app
+
+Alignak-app is an end-user application for Alignak and we can:
+
+* Get status of Alignak Daemons <!-- .element: class="fragment" data-fragment-index="1" -->
+* Be notified when there are changes in alignak (hosts and services) <!-- .element: class="fragment" data-fragment-index="2" -->
+* Synthesis View: See in real time hosts and their services <!-- .element: class="fragment" data-fragment-index="3" -->
+* See number of hosts and services per state <!-- .element: class="fragment" data-fragment-index="4" -->
+* Multi-screen: notifies you on your active screen <!-- .element: class="fragment" data-fragment-index="5" -->
+* and more... <!-- .element: class="fragment" data-fragment-index="6" -->
+
+Application can be installed on: <!-- .element: class="fragment" data-fragment-index="7" -->
+
+* Multiple platforms: Windows, Linux <!-- .element: class="fragment" data-fragment-index="8" -->
+* and is compatible Python 2.7, and Python 3. <!-- .element: class="fragment" data-fragment-index="9" -->
+
+</script>
+
+</section>
+
+<section data-markdown>
+## Alignak-app - notification
+
+![Alt test](image/notification.png)
+
+</section>
+
+<section data-markdown>
+## Alignak-app - synthesis view
+
+![Alt test](image/synthesis_view.png)
+
+</section>
 
 <section data-markdown>
 ## Load-balancing usage
