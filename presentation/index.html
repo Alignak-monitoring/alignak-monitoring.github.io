@@ -50,7 +50,7 @@ The reporting is too an important part of the solution and we especially worked 
 * REST API for configuration and reporting (hosts / services states) <!-- .element: class="fragment" data-fragment-index="3" -->
 * Database for configuration, history, reporting (hosts / services states) <!-- .element: class="fragment" data-fragment-index="4" -->
 * WebUI <!-- .element: class="fragment" data-fragment-index="5" -->
-* Alignak-app (end-user application) <!-- .element: class="fragment" data-fragment-index="6" -->
+* Alignak-app (desktop application) <!-- .element: class="fragment" data-fragment-index="6" -->
 * Nagios / Shinken compatible features <!-- .element: class="fragment" data-fragment-index="7" -->
 * Robust code (many [unit|integration|functional] tests) <!-- .element: class="fragment" data-fragment-index="8" -->
 * Software quality with pep8 + pylint conformity <!-- .element: class="fragment" data-fragment-index="9" -->
@@ -169,7 +169,6 @@ In the WebUI, we can:
 * Graph of each check <!-- .element: class="fragment" data-fragment-index="7" -->
 * and more... <!-- .element: class="fragment" data-fragment-index="8" -->
 
-
 </script>
 </section>
 
@@ -202,19 +201,18 @@ The webui:<!-- .element: class="fragment" data-fragment-index="3" -->
 <script>
 ## Alignak-app
 
-Alignak-app is an end-user application for Alignak and we can:
+* Alignak-app is a desktop application, in the system tray, for Linux or Windows. <!-- .element: class="fragment" data-fragment-index="1" -->
+* It alerts the end-user with popup notifications, when a problem happens. <!-- .element: class="fragment" data-fragment-index="2" -->
 
-* Get status of Alignak Daemons <!-- .element: class="fragment" data-fragment-index="1" -->
-* Be notified when there are changes in alignak (hosts and services) <!-- .element: class="fragment" data-fragment-index="2" -->
-* Synthesis View: See in real time hosts and their services <!-- .element: class="fragment" data-fragment-index="3" -->
-* See number of hosts and services per state <!-- .element: class="fragment" data-fragment-index="4" -->
-* Multi-screen: notifies you on your active screen <!-- .element: class="fragment" data-fragment-index="5" -->
-* and more... <!-- .element: class="fragment" data-fragment-index="6" -->
+With Alignak-app, we can: <!-- .element: class="fragment" data-fragment-index="3" -->
 
-Application can be installed on: <!-- .element: class="fragment" data-fragment-index="7" -->
+* Get Alignak daemons status, number of hosts and services per state <!-- .element: class="fragment" data-fragment-index="4" -->
+* Be notified when there are changes / problems in Alignak <!-- .element: class="fragment" data-fragment-index="5" -->
+* Host Synthesis View: see, in real time, hosts and their services <!-- .element: class="fragment" data-fragment-index="6" -->
+* Multi-screen: notifies you on your active screen <!-- .element: class="fragment" data-fragment-index="7" -->
+* and more... <!-- .element: class="fragment" data-fragment-index="8" -->
 
-* Multiple platforms: Windows, Linux <!-- .element: class="fragment" data-fragment-index="8" -->
-* and is compatible Python 2.7, and Python 3. <!-- .element: class="fragment" data-fragment-index="9" -->
+Alignak-app is compatible Python 2.7 and Python 3. <!-- .element: class="fragment" data-fragment-index="9" -->
 
 </script>
 
@@ -222,15 +220,18 @@ Application can be installed on: <!-- .element: class="fragment" data-fragment-i
 
 <section data-markdown>
 ## Alignak-app - notification
+(under Ubuntu)
 
-![Alt test](image/notification.png)
+![Alt text](image/notification.png)
 
 </section>
 
-<section data-markdown>
-## Alignak-app - synthesis view
+<section>
+<h2>Alignak-app - synthesis view</h2>
+<p>(under Ubuntu)</p>
 
-![Alt test](image/synthesis_view.png)
+<img class="stretch" src="image/synthesis_view.png"</img>
+
 
 </section>
 
