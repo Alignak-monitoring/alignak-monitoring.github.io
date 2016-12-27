@@ -9,15 +9,28 @@ order: 6
 <div style="float: left; width: 50%;">
 <h2>Friends</h2>
 
-Alignak has friends, it's people / company contribute.
+Alignak has many friends ;)
+
+People contribute:
 
 <ul>
 <li> David Durieux (ddurieux)</li>
 <li> Frédéric Mohier (mohierf)</li>
 <li> Sebastien Coavoux (Seb-Solon)</li>
-<li> <a href="http://www.ipmfrance.fr">IPM France</a></li>
 <li> Matthieu Estrada (Algorys)</li>
-<li> website <a href="http://sysadmin.cool/">http://sysadmin.cool/</a></li>
+</ul>
+
+Company contribute:
+
+<ul>
+<li> <a href="http://www.ipmfrance.fr">IPM France</a></li>
+<li> <a href="http://dcsit-group.com/">DCS</a></li>
+</ul>
+
+Website:
+
+<ul>
+<li> <a href="http://sysadmin.cool/">http://sysadmin.cool/</a></li>
 </ul>
 </div>
 
