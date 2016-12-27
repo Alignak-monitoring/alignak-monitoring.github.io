@@ -10,7 +10,7 @@ order: 6
 <h2>Friends</h2>
 
 Alignak has many friends ;)
-
+<br/><br/>
 
 People contribute:
 
@@ -38,21 +38,19 @@ Website:
 <div style="float: right; width: 50%;">
 <h2>Partners</h2>
 
-Alignak has partners.
+Alignak has partners.<br/>
 These partners add resources to the projet and propose services like support, 
 installation, training...
 
 
-<div style="float: left; width: 50%;">
-<h3><i>DCS</i></h3>
+<div>
+<br/>
+<img src="../images/partner_dcs.png"/>
 <ul>
 <li>contact: Christophe Burette Pommay (product director)</li>
 <li>Email: <a href="mailto:c.burette@dcsit-group.com">c.burette@dcsit-group.com</a></li>
 <li>phone: +33 (0)4.78.95.81.70</li>
 </ul>
-</div>
-
-<div style="float: right; width: 50%;">
 </div>
 
 </div>
