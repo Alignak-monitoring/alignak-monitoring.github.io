@@ -1,6 +1,6 @@
 # Site settings
 title: Alignak
-email: your-email@domain.com
+email: david.durieux@alignak.net
 description: > # this means to ignore newlines until "baseurl:"
   integrated monitoring solution
 baseurl: "" # the subpath of your site, e.g. /blog/
