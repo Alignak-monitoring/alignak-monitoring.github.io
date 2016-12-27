@@ -11,6 +11,7 @@ order: 6
 
 Alignak has many friends ;)
 
+
 People contribute:
 
 <ul>
