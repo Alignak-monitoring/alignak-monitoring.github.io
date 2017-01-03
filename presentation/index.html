@@ -94,7 +94,7 @@ Alignak is made of several parts that can be run on the same server or distribut
 <section data-markdown>
 ### Alignak-backend: configuration & reporting
 
-![Schema of the backend](image/backend_schema.png)
+![Backend schema](image/backend_schema.png)
 
 </section>
 
@@ -103,12 +103,11 @@ Alignak is made of several parts that can be run on the same server or distribut
 <script type="text/template">
 ### Alignak-backend: how-to configuration 1/2
 
-The steps:
-
 * Add / update elements in backend (commands, hosts, services...) via API (command line, client, webui, plugin Monitoring for GLPI...) <!-- .element: class="fragment" data-fragment-index="1" -->
-* Start Alignak arbiter and it will get the configuration from the backend through the REST API<!-- .element: class="fragment" data-fragment-index="2" -->
-* Alignak arbiter dispatchs the configuration to other Alignak modules <!-- .element: class="fragment" data-fragment-index="3" -->
-* Periodically, the Arbiter checks if the configuration changed in backend. If so it gets and loads the new configuration <!-- .element: class="fragment" data-fragment-index="4" -->
+* The Alignak Arbiter gets the monitoring configuration from the backend thanks to the REST API...<!-- .element: class="fragment" data-fragment-index="2" -->
+* ...dispatches the configuration to the other Alignak modules... <!-- .element: class="fragment" data-fragment-index="3" -->
+* ...monitors the other Alignak modules <!-- .element: class="fragment" data-fragment-index="4" -->
+* ...periodically checks if the configuration changed in the backend. If so, it updates the monitoring configuration <!-- .element: class="fragment" data-fragment-index="5" -->
 </script>
 </section>
 
@@ -116,7 +115,7 @@ The steps:
 <section data-markdown>
 ### Alignak-backend: how-to configuration 2/2
 
-![Configuration schema](image/configuration_schema.png)
+![Backend configuration schema](image/configuration_schema.png)
 
 </section>
 
