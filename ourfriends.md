@@ -12,23 +12,23 @@ order: 6
 Alignak has many friends ;)
 <br/><br/>
 
-People contribute:
+Some people contribute:
 
 <ul>
 <li> David Durieux (ddurieux)</li>
 <li> Frédéric Mohier (mohierf)</li>
 <li> Sebastien Coavoux (Seb-Solon)</li>
-<li> Matthieu Estrada (Algorys)</li>
+<li> Matthieu Estrada (algorys)</li>
 </ul>
 
-Company contribute:
+Some companies contribute:
 
 <ul>
 <li> <a href="http://www.ipmfrance.fr">IPM France</a></li>
 <li> <a href="http://dcsit-group.com/">DCS</a></li>
 </ul>
 
-Website:
+Web sites:
 
 <ul>
 <li> <a href="http://sysadmin.cool/">http://sysadmin.cool/</a></li>
