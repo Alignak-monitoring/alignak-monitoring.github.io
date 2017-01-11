@@ -19,6 +19,7 @@ Some people contribute:
 <li> Frédéric Mohier (mohierf)</li>
 <li> Sebastien Coavoux (Seb-Solon)</li>
 <li> Matthieu Estrada (algorys)</li>
+<li> Johann Biskup (spea1)</li>
 </ul>
 
 Some companies contribute:
