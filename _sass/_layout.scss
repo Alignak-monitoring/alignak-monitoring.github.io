@@ -324,3 +324,35 @@ code {
 .hidden {
    visibility: hidden;
 }
+
+.ph-button {
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    color: #FFFFFF;	   
+    border-radius: 0px;
+    cursor: pointer;
+    display: inline-block;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: all 200ms ease-in-out 0s;
+    white-space: nowrap;	
+    font-family: "Gotham Rounded A","Gotham Rounded B",Helvetica,Arial,sans-serif;
+    font-weight: 700;	
+    padding: 11px 39px 10px;
+    font-size: 18px;
+	 width: 160px;
+}
+
+.ph-btn-blue {
+    background-color: #3F8ABF;
+    color: #FFFFFF;	   
+    text-decoration: none;
+}
+
+a.ph-btn-blue:hover, a.ph-btn-blue:focus, a.ph-btn-blue:active, a.ph-btn-blue:link, a.ph-btn-blue:visited {
+    background-color: #3F8ABF;
+    color: #FFFFFF;	   
+    text-decoration: none;
+}
