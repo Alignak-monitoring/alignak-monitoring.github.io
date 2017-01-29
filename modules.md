@@ -26,6 +26,7 @@ Web User Interface, keep an eye on your system and edit your monitoring configur
 
 <ul>
 <li><a href="https://github.com/Alignak-monitoring-contrib/alignak-webui" target="_blank">Web User Interface</a></li>
+<li><a href="https://github.com/alignak-monitoring-contrib/alignak-app" target="_blank">Desktop applet</a></li>
 </ul>
 </div>
 </div>
