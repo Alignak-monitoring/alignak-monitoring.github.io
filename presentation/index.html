@@ -54,7 +54,7 @@ Reporting is an important part of the solution and we especially worked on it to
 * Nagios / Shinken compatible features <!-- .element: class="fragment" data-fragment-index="7" -->
 * Robust code (many [unit|integration|functional] tests) <!-- .element: class="fragment" data-fragment-index="8" -->
 * Software quality with pep8 + pylint conformity <!-- .element: class="fragment" data-fragment-index="9" -->
-* Native support of grafana, timeseries (graphite/carbon, influxdb), logs <!-- .element: class="fragment" data-fragment-index="10" -->
+* Native support of grafana, timeseries (statsd, graphite/carbon, influxdb), logs <!-- .element: class="fragment" data-fragment-index="10" -->
 * and also standard monitoring features... <!-- .element: class="fragment" data-fragment-index="11" -->
 
 </script>
@@ -146,9 +146,11 @@ We support different clients / libraries to dialog with the Backend:
 * Python 2.7 / 3.x client: <!-- .element: class="fragment" data-fragment-index="1" --> https://github.com/Alignak-monitoring-contrib/alignak-backend-client <!-- .element: class="fragment" data-fragment-index="2" -->
 * PHP library: <!-- .element: class="fragment" data-fragment-index="3" --> https://github.com/Alignak-monitoring-contrib/alignak-backend-php-client <!-- .element: class="fragment" data-fragment-index="4" -->
 
-For your information, the python client is used by the Alignak backend modules, Alignak-app and the WebUI. <!-- .element: class="fragment" data-fragment-index="5" -->
+The python client is used by the Alignak backend modules, Alignak-app and the WebUI. <!-- .element: class="fragment" data-fragment-index="5" -->
 
-Of course, any other low-level client may be used: curl, postman, ... <!-- .element: class="fragment" data-fragment-index="6" -->
+A command line script to manipulate the backend data is also available, allowing to script many things in the backend. <!-- .element: class="fragment" data-fragment-index="6" -->
+
+Of course, any other low-level client may be used: curl, postman, ... <!-- .element: class="fragment" data-fragment-index="7" -->
 </script>
 </section>
 
@@ -197,7 +199,7 @@ The webui:<!-- .element: class="fragment" data-fragment-index="3" -->
 </section>
 
 <section data-markdown>
-<script>
+<script type="text/template">
 ## Alignak-app
 
 * Alignak-app is a desktop application, in the system tray, for Linux or Windows. <!-- .element: class="fragment" data-fragment-index="1" -->
