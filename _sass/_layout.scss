@@ -351,7 +351,7 @@ code {
     text-decoration: none;
 }
 
-.ph-btn-blue:hover, .ph-btn-blue:focus, .ph-btn-blue:active {
+a.ph-btn-blue:hover, a.ph-btn-blue:focus, a.ph-btn-blue:active, a.ph-btn-blue:link, a.ph-btn-blue:visited {
     background-color: #3F8ABF;
     color: #FFFFFF;	   
     text-decoration: none;
