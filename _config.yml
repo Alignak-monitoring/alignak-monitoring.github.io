@@ -2,7 +2,11 @@
 title: Alignak
 email: david.durieux@alignak.net
 description: > # this means to ignore newlines until "baseurl:"
-  integrated monitoring solution
+  alignak integrated monitoring solution nagios shinken fork
+  distributed failover check checks plugin plugins snmp wmi nsclient nsca nrpe
+  grafana graphite influxdb statsd timeseries database
+  backend REST api API mongodb eve
+  python
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.alignak.net" # the base hostname & protocol for your site
 twitter_username: alignak_monitor
