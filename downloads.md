@@ -16,13 +16,13 @@ Have a look into the [documentation](http://alignak-doc.readthedocs.org/en/lates
 If you want recent builds have a look here :
 
 
-* [debian_8](/build/debian_8/alignak-all_0.2-1.1488477821.98a74b9_all.deb)
+* [debian_8](/build/debian_8/alignak-all_0.2-1.1489300848.c527ae7_all.deb)
 
-* [centos_7](/build/centos_7/alignak-all-0.2-1_1488477821_98a74b9.el7.x86_64.rpm)
+* [centos_7](/build/centos_7/alignak-all-0.2-1_1489300848_c527ae7.el7.x86_64.rpm)
 
-* [ubuntu_16](/build/ubuntu_16/alignak-all_0.2-1.1488477821.98a74b9_all.deb)
+* [ubuntu_16](/build/ubuntu_16/alignak-all_0.2-1.1489300848.c527ae7_all.deb)
 
-* [ubuntu_14](/build/ubuntu_14/alignak-all_0.2-1.1488477821.98a74b9_all.deb)
+* [ubuntu_14](/build/ubuntu_14/alignak-all_0.2-1.1489300848.c527ae7_all.deb)
 
 
 The package name has the following format:
