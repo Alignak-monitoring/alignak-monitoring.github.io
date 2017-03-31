@@ -5,7 +5,7 @@ permalink: /modules/
 menu: true
 order: 5
 ---
-Alignak has many extenxions making it easy to set-up a powerful monitoring configuration.
+Alignak has many extensions making it easy to set-up a powerful monitoring configuration.
 <div>
 <div style="display: table-row;">
 <div style="float: left; width: 50%;">
