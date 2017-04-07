@@ -40,7 +40,7 @@ Web sites:
 <h2>Partners</h2>
 
 Alignak has partners.<br/>
-These partners add resources to the projet and propose services like support, 
+These partners add resources to the project and offer services like support, 
 installation, training...
 
 
