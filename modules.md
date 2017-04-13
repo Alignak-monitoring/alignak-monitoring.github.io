@@ -40,6 +40,7 @@ Extending Alignak framework native features.
 <li><a href="https://github.com/Alignak-monitoring-contrib/alignak-module-backend" target="_blank">Backend configuration and retention</a></li>
 <li><a href="https://github.com/Alignak-monitoring-contrib/alignak-module-logs" target="_blank">Centralized monitoring logs</a></li>
 <li><a href="https://github.com/Alignak-monitoring-contrib/alignak-module-external-commands" target="_blank">External commands</a></li>
+<li><a href="https://github.com/Alignak-monitoring-contrib/alignak-module-ws" target="_blank">Web services</a></li>
 </ul>
 </div>
 

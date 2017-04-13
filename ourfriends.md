@@ -22,6 +22,8 @@ Some people contribute:
 <li> Johann Biskup (spea1)</li>
 </ul>
 
+Join the **#alignak** channel on <a href="http://webchat.freenode.net/?channels=%23alignak">freenode.net</a>
+
 Some companies contribute:
 
 <ul>
