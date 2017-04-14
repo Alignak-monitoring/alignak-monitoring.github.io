@@ -32,11 +32,11 @@
 <section data-markdown>
 ## Introduction 
 
-Alignak is a complete monitoring solution. 
+Alignak is a complete and scalable monitoring solution.
 
-It will help you to easily implement the monitoring of your resources (servers, applications, network devices...). 
+It will help you to easily monitor your IT resources (servers, applications, network devices...).
 
-Reporting is an important part of the solution and we especially worked on it to offer powerful views on webui.
+Reporting is an important part a global monitoring solution and we especially focused on providing powerful reporting tools
 
 
 </section>
@@ -47,14 +47,14 @@ Reporting is an important part of the solution and we especially worked on it to
 
 * Fail-over <!-- .element: class="fragment" data-fragment-index="1" -->
 * Load balancing <!-- .element: class="fragment" data-fragment-index="2" -->
-* REST API for configuration and reporting (hosts / services states) <!-- .element: class="fragment" data-fragment-index="3" -->
-* Database for configuration, history, reporting (hosts / services states) <!-- .element: class="fragment" data-fragment-index="4" -->
-* WebUI <!-- .element: class="fragment" data-fragment-index="5" -->
-* Alignak-app (desktop application) <!-- .element: class="fragment" data-fragment-index="6" -->
-* Nagios / Shinken compatible features <!-- .element: class="fragment" data-fragment-index="7" -->
+* REST API for configuration and reporting <!-- .element: class="fragment" data-fragment-index="3" -->
+* Database for configuration, history and reporting <!-- .element: class="fragment" data-fragment-index="4" -->
+* Web User Interface <!-- .element: class="fragment" data-fragment-index="5" -->
+* Desktop application (Alignak-app) <!-- .element: class="fragment" data-fragment-index="6" -->
+* Easy migration (Nagios / Shinken compatible configuration) <!-- .element: class="fragment" data-fragment-index="7" -->
 * Robust code (many [unit|integration|functional] tests) <!-- .element: class="fragment" data-fragment-index="8" -->
-* Software quality with pep8 + pylint conformity <!-- .element: class="fragment" data-fragment-index="9" -->
-* Native support of grafana, timeseries (statsd, graphite/carbon, influxdb), logs <!-- .element: class="fragment" data-fragment-index="10" -->
+* Software quality check with pep8/pylint conformity <!-- .element: class="fragment" data-fragment-index="9" -->
+* Native support of Grafana, timeseries databases (statsd, graphite/carbon, influxdb), logs <!-- .element: class="fragment" data-fragment-index="10" -->
 * and also standard monitoring features... <!-- .element: class="fragment" data-fragment-index="11" -->
 
 </script>
@@ -80,12 +80,12 @@ Reporting is an important part of the solution and we especially worked on it to
 
 Alignak is made of several parts that can be run on the same server or distributed:
 
-* Arbiter: manages configuration and is an orchestra conductor <!-- .element: class="fragment" data-fragment-index="1" -->
+* Arbiter: manages configuration and is Alignak orchestra conductor <!-- .element: class="fragment" data-fragment-index="1" -->
 * Scheduler: schedules the checks to execute <!-- .element: class="fragment" data-fragment-index="2" -->
-* Poller: executes the checks <!-- .element: class="fragment" data-fragment-index="3" -->
+* Poller: run the checks plugins and reports their results <!-- .element: class="fragment" data-fragment-index="3" -->
 * Broker: gets event broks. As an example, populate the live state to the Backend <!-- .element: class="fragment" data-fragment-index="4" -->
 * Reactionner: executes actions scripts (notifications, event handler...) <!-- .element: class="fragment" data-fragment-index="5" -->
-* Receiver: collects passive checks. As an example: NSCA <!-- .element: class="fragment" data-fragment-index="6" -->
+* Receiver: collects passive checks, exposes Web services. <!-- .element: class="fragment" data-fragment-index="6" -->
 
 </script>
 </section>
@@ -103,10 +103,10 @@ Alignak is made of several parts that can be run on the same server or distribut
 <script type="text/template">
 ### Alignak-backend: how-to configuration 1/2
 
-* Add / update elements in backend (commands, hosts, services...) via API (command line, client, webui, plugin Monitoring for GLPI...) <!-- .element: class="fragment" data-fragment-index="1" -->
+* Add / update elements in backend (commands, hosts, services...) via API (WebUI, alignak-backend-client Command Line Interface, python/php client, GLPI Monitoring plugin,...) <!-- .element: class="fragment" data-fragment-index="1" -->
 * The Alignak Arbiter gets the monitoring configuration from the backend thanks to the REST API...<!-- .element: class="fragment" data-fragment-index="2" -->
-* ...dispatches the configuration to the other Alignak modules... <!-- .element: class="fragment" data-fragment-index="3" -->
-* ...monitors the other Alignak modules <!-- .element: class="fragment" data-fragment-index="4" -->
+* ...dispatches the configuration to the other Alignak daemons... <!-- .element: class="fragment" data-fragment-index="3" -->
+* ...monitors the other Alignak daemons <!-- .element: class="fragment" data-fragment-index="4" -->
 * ...periodically checks if the configuration changed in the backend. If so, it updates the monitoring configuration <!-- .element: class="fragment" data-fragment-index="5" -->
 </script>
 </section>
@@ -148,7 +148,7 @@ We support different clients / libraries to dialog with the Backend:
 
 The python client is used by the Alignak backend modules, Alignak-app and the WebUI. <!-- .element: class="fragment" data-fragment-index="5" -->
 
-A command line script to manipulate the backend data is also available, allowing to script many things in the backend. <!-- .element: class="fragment" data-fragment-index="6" -->
+A command line script (alignak-backend-client) to interact with the backend is also available, allowing to script many things in the backend. <!-- .element: class="fragment" data-fragment-index="6" -->
 
 Of course, any other low-level client may be used: curl, postman, ... <!-- .element: class="fragment" data-fragment-index="7" -->
 </script>
@@ -162,11 +162,11 @@ Of course, any other low-level client may be used: curl, postman, ... <!-- .elem
 In the WebUI, we can:
 
 * View all elements (hosts, services, commands, timeperiods...) <!-- .element: class="fragment" data-fragment-index="1" -->
-* View Alignak logs<!-- .element: class="fragment" data-fragment-index="2" -->
+* View Alignak logs/history<!-- .element: class="fragment" data-fragment-index="2" -->
 * Compose your own dashboard with widgets <!-- .element: class="fragment" data-fragment-index="3" -->
 * View your monitored equipments on a geographical map  <!-- .element: class="fragment" data-fragment-index="4" -->
 * View a synthetic minemap <!-- .element: class="fragment" data-fragment-index="5" -->
-* Manage acknowledge, downtime and recheck<!-- .element: class="fragment" data-fragment-index="6" -->
+* Manage acknowledge, downtime and recheck, and notify external commands<!-- .element: class="fragment" data-fragment-index="6" -->
 * View hosts/services metrics graphes <!-- .element: class="fragment" data-fragment-index="7" -->
 * and more... <!-- .element: class="fragment" data-fragment-index="8" -->
 
@@ -183,7 +183,7 @@ The Alignak backend:
 * Creates dashboards and graphs for each command (host / service) in Grafana <!-- .element: class="fragment" data-fragment-index="1" -->
 * Stores the id of the graph in host / service endpoint <!-- .element: class="fragment" data-fragment-index="2" -->
 
-The webui:<!-- .element: class="fragment" data-fragment-index="3" -->
+The Alignak WebUI:<!-- .element: class="fragment" data-fragment-index="3" -->
 
 * Gets and displays the graphs from Grafana <!-- .element: class="fragment" data-fragment-index="4" -->
 
@@ -194,7 +194,7 @@ The webui:<!-- .element: class="fragment" data-fragment-index="3" -->
 <section data-markdown>
 ## WebUI - graphs (2/2)
 
-![Alignak webui graphs](image/webui_graphs.png)
+![Alignak WebUI graphs](image/webui_graphs.png)
 
 </section>
 
@@ -202,7 +202,7 @@ The webui:<!-- .element: class="fragment" data-fragment-index="3" -->
 <script type="text/template">
 ## Alignak-app
 
-* Alignak-app is a desktop application, in the system tray, for Linux or Windows. <!-- .element: class="fragment" data-fragment-index="1" -->
+* Alignak-app is a desktop application, residing in the system tray, for Linux or Windows. <!-- .element: class="fragment" data-fragment-index="1" -->
 * It alerts the end-user with popup notifications, when a problem happens. <!-- .element: class="fragment" data-fragment-index="2" -->
 
 With Alignak-app, you can: <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -258,7 +258,7 @@ Alignak-app is a multi-screen application, notifies you on your active screen an
 There are many reasons to use realms:
 
 * Monitored system spread across multiple geographical sites <!-- .element: class="fragment" data-fragment-index="1" -->
-* Manage users / contacts access credentials for the backend / WebUI <!-- .element: class="fragment" data-fragment-index="2" -->
+* Manage users access credentials for the backend / WebUI <!-- .element: class="fragment" data-fragment-index="2" -->
 
 Realms allow to create *parts* in the monitoring configuration that will be considered separately by Alignak. <!-- .element: class="fragment" data-fragment-index="3" -->
 As an example, a whole company infrastructure can be split in two realms: France and Italy. <!-- .element: class="fragment" data-fragment-index="4" -->
@@ -288,7 +288,7 @@ If you already have some Nagios or Shinken configuration files, you can:
 * We try to have as much documentation as possible.  <!-- .element: class="fragment" data-fragment-index="1" -->
 * We want to keep the documentation simple and understandable.  <!-- .element: class="fragment" data-fragment-index="2" -->
 * Sure the documentation is not yet complete, but you can help us!  <!-- .element: class="fragment" data-fragment-index="3" -->
-* Link to the <!-- .element: class="fragment" data-fragment-index="3" --> [documentation](http://alignak-monitoring.github.io/documentation/) <!-- .element: class="fragment" data-fragment-index="3" -->
+* Link to the <!-- .element: class="fragment" data-fragment-index="3" --> [documentation](http://docs.alignak.net/) <!-- .element: class="fragment" data-fragment-index="3" -->
 
 </script>
 </section>
