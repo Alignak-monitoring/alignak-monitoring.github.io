@@ -16,8 +16,6 @@ Have a look into the [documentation](http://alignak-doc.readthedocs.org/en/lates
 If you want recent builds have a look here :
 
 
-* [debian_8](/build/debian_8/alignak-all_0.2-1~jessie_all.deb)
-
 * [centos_7](/build/centos_7/alignak-all-0.2-1.el7.x86_64.rpm)
 
 * [ubuntu_16](/build/ubuntu_16/alignak-all_0.2-1~xenial_all.deb)
