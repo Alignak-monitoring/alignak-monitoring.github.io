@@ -22,7 +22,7 @@ Some people contribute:
 <li> Johann Biskup (spea1)</li>
 </ul>
 
-Join the **#alignak** channel on <a href="http://webchat.freenode.net/?channels=%23alignak">freenode.net</a>
+Join the <b>#alignak</b> channel on <a href="http://webchat.freenode.net/?channels=%23alignak">freenode.net</a>
 
 Some companies contribute:
 
@@ -53,6 +53,7 @@ installation, training...
 <li>contact: Christophe Burette Pommay (product director)</li>
 <li>Email: <a href="mailto:c.burette@dcsit-group.com">c.burette@dcsit-group.com</a></li>
 <li>phone: +33 (0)4.78.95.81.70</li>
+<li>services: support, training, installation, config help...</li>
 </ul>
 </div>
 
