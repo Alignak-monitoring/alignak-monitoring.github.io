@@ -15,7 +15,7 @@ Add in your `/etc/apt/sources.list`:
 ```
 deb https://dl.bintray.com/ddurieux/alignak_deb-stable {distribution} main
 ```
-where `{distribution}` is your distribution name, wokr only for one of the list:
+where `{distribution}` is your distribution name, work only for one in the list:
 
 * jessie
 * Stretch
@@ -28,7 +28,7 @@ where `{distribution}` is your distribution name, wokr only for one of the list:
 
 ### RPM
 
-See the page [](https://copr.fedorainfracloud.org/coprs/hvad/Alignak/)
+See the page [https://copr.fedorainfracloud.org/coprs/hvad/Alignak/](https://copr.fedorainfracloud.org/coprs/hvad/Alignak/)
 
 ### PIP
 
@@ -62,7 +62,7 @@ where `{distribution}` is your distribution name, wokr only for one of the list:
 
 ### RPM
 
-There is no possibility for the moment with development PRM packages
+There is no possibility for the moment to have RPM packages of development version
 
 ### Source
 
