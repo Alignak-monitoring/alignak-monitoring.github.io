@@ -49,7 +49,7 @@ Add in your `/etc/apt/sources.list`:
 ```
 deb https://dl.bintray.com/ddurieux/alignak_deb-testing {distribution} main
 ```
-where `{distribution}` is your distribution name, wokr only for one of the list:
+where `{distribution}` is your distribution name, work only for one in the list:
 
 * jessie
 * Stretch
@@ -62,7 +62,7 @@ where `{distribution}` is your distribution name, wokr only for one of the list:
 
 ### RPM
 
-There is no possibility for the moment to have RPM packages of development version
+It is not possible currently to have the develop branch version with RPM packages.
 
 ### Source
 
