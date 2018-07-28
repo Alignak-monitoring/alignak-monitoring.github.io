@@ -15,7 +15,6 @@ Alignak has many friends ;)
 Some people contribute:
 
 <ul>
-<li> David Durieux (ddurieux)</li>
 <li> Frédéric Mohier (mohierf)</li>
 <li> Sebastien Coavoux (Seb-Solon)</li>
 <li> Matthieu Estrada (algorys)</li>
