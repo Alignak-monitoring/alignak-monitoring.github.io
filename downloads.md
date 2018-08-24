@@ -6,68 +6,40 @@ menu: true
 order: 4
 ---
 
-## Stable versions
+## Alignak repositories
 
-### DEB
+Alignak packaging and download repositories for Linux/Unix is done thanks to the [Bintray software distribution](https://bintray.com/alignak/>). Check the [Alignak Bintray home page](https://bintray.com/alignak) for all the available packages.
 
-Add in your `/etc/apt/sources.list`:
+Installing Alignak is documented in the [official documentation](http://docs.alignak.net/en/develop-environment/02_installation/index.html).
 
-```
-deb https://dl.bintray.com/ddurieux/alignak_deb-stable {distribution} main
-```
-where `{distribution}` is your distribution name, work only for one in the list:
+All the Alignak ecosystem applications and modules exist in separate stable and develop repositories. The `stable` repositories only contains versions that are robust and intensively tested.
 
-* jessie
-* Stretch
-* Trusty 
-* xenial
-* Yakkety
-* Zesty
-* Artful
+The `develop` repositories contain all the other versions including all the new features. A branch-named version is made available as soon as a build is running in the project **C**ontinuous **I**ntegration and a develop version is made available as soon as the develop branch is updated.
 
 
-### RPM
 
-See the page [https://copr.fedorainfracloud.org/coprs/hvad/Alignak/](https://copr.fedorainfracloud.org/coprs/hvad/Alignak/)
+### Debian packages
 
-### PIP
-
-It's possible to install with pip with the command:
+See the [installation chapter in the official documentation](http://docs.alignak.net/en/develop-environment/02_installation/01_system.html#on-debian-like-linux).
 
 ```
-pip install {package_name}
+sudo apt install alignak
 ```
 
-## Development versions
+### RPM packages
 
-### DEB
-
-The DEB packages are generated each time a Pull Request is merged in the `develop` branch.
-
-Add in your `/etc/apt/sources.list`:
+See the [installation chapter in the official documentation](http://docs.alignak.net/en/develop-environment/02_installation/01_system.html#on-debian-like-linux).
 
 ```
-deb https://dl.bintray.com/ddurieux/alignak_deb-testing {distribution} main
+sudo yum install alignak
 ```
-where `{distribution}` is your distribution name, work only for one in the list:
 
-* jessie
-* Stretch
-* Trusty 
-* xenial
-* Yakkety
-* Zesty
-* Artful
+Note that it exists an alternate packaging for Fedora that allows a fine-grained installation of the Alignak framework. See [this page](https://copr.fedorainfracloud.org/coprs/hvad/Alignak/).
 
+### Python package
 
-### RPM
-
-It is not possible currently to have the develop branch version with RPM packages.
-
-### Source
-
-Get the github repository and install with the command:
+See the [installation chapter in the official documentation](http://docs.alignak.net/en/develop-environment/02_installation/02_pip_sources.html).
 
 ```
-pip install .
+sudo pip install alignak
 ```
