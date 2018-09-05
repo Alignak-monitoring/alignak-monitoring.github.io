@@ -6,6 +6,8 @@ menu: true
 order: 8
 ---
 
+`To be updated!`
+
 Alignak has a demonstration server and Web site.
 
 The url of the Web User Interface is: <a href="http://demo.alignak.net/" target="_blank">demo.alignak.net</a>. Use *admin* as username and *admin* as password to have a look on what is happening on our monitoring server.

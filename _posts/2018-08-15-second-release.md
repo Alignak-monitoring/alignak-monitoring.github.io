@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Second major release"
+title: "Second major release (beta)"
 date: 2018-08-15 08:00:00
 categories: code
 ---
